@@ -11,7 +11,7 @@ for i in d:
     
 print(l)
 
-
+print("welcome git")
 
 
 # l = [1,1,1,1,1,2,2,2,3,3,3,3]
