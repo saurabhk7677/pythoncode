@@ -28,3 +28,6 @@ print(str[-8])
 print(str[-9])
 print(str[-10])
 print(str[-11])
+
+print("this is a index file")
+print("hello index")

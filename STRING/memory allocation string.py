@@ -28,3 +28,5 @@ str7 = "hello world"
 print(id(str7))
 str7 = "python"
 print(id(str7))
+
+print("New file added")
