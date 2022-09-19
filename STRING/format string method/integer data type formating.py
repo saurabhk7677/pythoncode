@@ -1,0 +1,10 @@
+print("{num:d}".format(num=15))                  # print integer type num.
+print("{num:5d}".format(num=15))                 # create 5 block and print num by default right align
+print("{num:05d}".format(num=15))                # create 5 block and print num by right side and print 0 in empty 3 block.
+print("{num:+5d}".format(num=15))                # create 5 block and print (+)symbol with num in right side.
+print("{num:<5d}".format(num=15))                # create 5 block and print num (<) left side.
+print("{num:*<5d}".format(num=15))               # create 5 blocks and print num  (<) left side and (*) print empty blocks.
+print("{num:>5d}".format(num=15))                # create 5 block and print num (>) right side.
+print("{num:*>5d}".format(num=15))               # create 5 blocks and print num  (>) right side and (*) print empty blocks.
+print("{num:^5d}".format(num=15))                # create 5 blocks and print(^) align with indexing.
+print("{num:*^5d}".format(num=15))               # create 5 blocks and print(^) align with indexing and print(*) with empty blocks.

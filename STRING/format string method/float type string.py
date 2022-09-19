@@ -1,0 +1,8 @@
+print("{}".format(10.56))
+print("{} {}".format(10.56,20.42))
+print("{0}".format(10.56))
+print("{0} {1}".format(10.56, 20.42))
+print("{1} {0}".format(10.56,20.42))
+print("{num1}".format(num1=10.56))
+print("{num1} {num2}".format(num1=10.56,num2=20.42))
+print("{num2} {num1}".format(num1=10.56,num2=20.42))
