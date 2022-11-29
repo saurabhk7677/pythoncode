@@ -40,7 +40,7 @@ def decor(fun):
         add = a + 5
         return add
     return inner
-
+    
 def num():
     return 10
 
