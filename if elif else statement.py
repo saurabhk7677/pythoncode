@@ -27,5 +27,6 @@ elif day == "friday":
 
 elif day == "saturday":
     print("today is saturday")
+    
 else:
     print("today is holiday")
