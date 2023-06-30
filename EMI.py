@@ -1,4 +1,4 @@
-loan_amount = int(input("                                                                              loan amount "))
+loan_amount = int(input("loan amount "))
 duration_year = int(input("enter total time "))
 interest = int(input("enter rate of interest "))
 downpayment = int(input("enter downpayment "))
