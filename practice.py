@@ -53,11 +53,32 @@
 # print(saurabh.xyz())
 # # print(saurabh.mobile)
 
-import pdb
+# import pdb
 
 
-pdb.set_trace
-num1 = int(input("Enter first Number: "))
-num2 = input("Enter Sencond Number: ")
-addition = num1 + num2
-print(f"additin is {addition}")
+# pdb.set_trace
+# num1 = int(input("Enter first Number: "))
+# num2 = input("Enter Sencond Number: ")
+# addition = num1 + num2
+# print(f"additin is {addition}")
+
+
+class Mobile():
+    fp = 'Yes'
+
+    def __init__(self):
+        self.model = 'Realme x'
+
+    def show_model(self):
+        print("Model: ", self.model)
+
+    @classmethod
+    def is_fp(cls):
+        print("Fingure print: ",cls.fp)
+
+realme = Mobile()
+realme.show_model()
+Mobile.is_fp()
+print()
+Mobile.fp = 'No'
+Mobile.is_fp()

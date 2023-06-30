@@ -11,21 +11,3 @@
 # qr.make(fit=True)
 # img = qr.make_image(fill="black", back_color="white")
 # img.save('text.png')
-
-
-import random
-
-otp = random.randrange(10000,1000000)
-print(otp)
-
-user = int(input("Enter the OTP: "))
-if otp == user:
-    print("Access Granted...!!!!")
-
-else:
-    print("Access Denied...!!!!!")
-
-
-##################################
-#git check
-################################
